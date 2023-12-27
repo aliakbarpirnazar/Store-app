@@ -4,7 +4,7 @@ import { getData } from "./utils/httpReq.js";
 const loginButton = document.getElementById("login");
 const dashboardButton = document.getElementById("dashboard");
 
-const showProducts = (product) => {};
+const showProducts = (products) => {};
 
 const init = async () => {
   const cookie = getCookie();
